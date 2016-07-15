@@ -1,0 +1,27 @@
+{
+  "name": "ppjarvis-server",
+  "version": "1.0.0",
+  "description": "PPJarvis Server",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivish/ppjarvis-server.git"
+  },
+  "engines": {
+    "node": "5.9.1"
+  },
+  "author": "Vishal Thukral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivish/ppjarvis-server/issues"
+  },
+  "homepage": "https://github.com/ivish/ppjarvis-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

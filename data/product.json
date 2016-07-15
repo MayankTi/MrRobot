@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "name": "PayPal Payments Standard",
+            "details": "A fully customizable checkout $30/month, Get everything in Standard plus, Customize the checkout experience to match your brand, Keep customers on your website during checkout, Accept phone payments with a virtual terminal",
+            "countries_supported": "All countries"
+        },
+        {
+            "name": "PayPal",
+            "details": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+            "countries_supported": "All countries"
+        },
+        {
+            "name": "Express Checkout",
+            "details": "Express Checkout is a fast, easy way for buyers to pay with PayPal. Express Checkout eliminates one of the major causes of checkout abandonment by giving buyers all the transaction details at once, including order details, shipping options, insurance choices, and tax totals",
+            "countries_supported": "All countries"
+        },
+        {
+            "name": "Website Payments Pro",
+            "details": "Accept credit cards, PayPal Credit, and PayPal, Fully customizable with easy cart integration and APIs, Phone-based credit card payments and online invoicing",
+            "countries_supported": "US, UK, Canada"
+        },
+        {
+            "name": "Payflow Gateway",
+            "details": "Payflow is secure, open payment gateway. You can choose to have PayPal host your payment pages or have total control over the payment process. Payflow allows merchants to choose any Internet Merchant Account to accept debit or credit card payments and connect to any major processor",
+            "countries_supported": "US, Canada, Australia, New Zealand"
+        },
+        {
+            "name": "Mobile Checkout",
+            "details": "Mobile Express Checkout is the mobile version of PayPal's Express Checkout service, which is a one-stop payment option streamlines the checkout process for consumers. A buyer will not have to reenter shipping, billing, or payment information for a PayPal payment, expediting the checkout process",
+            "countries_supported": "Country & Currency Support"
+        },
+        {
+            "name": "Mass Payments",
+            "details": "Mass Payments lets you send multiple payments in one batch. It's a fast and convenient way to send commissions, rebates, rewards, and general payments. You must have explicit permisson from PayPal to use Mass Payments. You submit the payment information to PayPal in the form of a payment file",
+            "countries_supported": "What countries can receive Mass Payments?"
+        },
+        {
+            "name": "Virtual Terminal",
+            "details": "A virtual terminal is the link merchants need to accept credit card and ACH payments online securely and efficiently from their own computer. TransFirst® offers an easily accessible virtual terminal through Transaction Express®, our front-end payment platform",
+            "countries_supported": "Australia, Canada, France, Hong Kong, Italy, Japan, Singapore, Spain, UK, US"
+        },
+        {
+            "name": "Fraud Management Filters",
+            "details": "Fraud Management Filters checks for payment characteristics that may indicate fraudulent activity. You set up Fraud Management Filters to provide the tightest control possible over payments so that you can deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Payments that may require further investigation or intervention, such as comparing prior orders or contacting the customer for more information, can be flagged or put on hold or pended for review",
+            "countries_supported": "S, UK, Canada, Australia"
+        },
+        {
+            "name": "IPN",
+            "details": "Instant Payment Notification (IPN) is a message service that automatically notifies merchants of events related to PayPal transactions. Merchants can use it to automate back-office and administrative functions, including automatically fulfilling orders and providing customers with order status",
+            "countries_supported": "All countries"
+        },
+        {
+            "name": "PayPal REST APIs",
+            "details": "PayPal provides various payment related operations using the /payment resource and related sub-resources. Use payment for direct credit card payments and PayPal account payments. You can also use sub-resources to get payment related details",
+            "countries_supported": "Country & Currency Support"
+        }
+    ]
+}
