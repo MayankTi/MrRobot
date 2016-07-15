@@ -76,11 +76,11 @@ var actions = {
       return 'Sorry, I don\'t have any country info about ' + req.product;
     }
   },
-  "comparision": function(parameters){
+  "comparision": function(req){
     var details = '';
-    if (parameters.product1 && parameters.product2) {
+    if (req.parameters.product1 && req.parameters.product2) {
       products.forEach(function(prod){
-        if (parameters.product1 == prod.name || parameters.product2 == prod.name) {
+        if (req.parameters.product1 == prod.name || req.parameters.product2 == prod.name) {
           details = details + prod.details + "-----------\n\n";
         }
       });
