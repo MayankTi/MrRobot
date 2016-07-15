@@ -77,7 +77,7 @@ var actions = {
     }
   },
   "comparision": function(parameters){
-    var details = null;
+    var details = '';
     if (parameters.product1 && parameters.product2) {
       products.forEach(function(prod){
         if (parameters.product1 == prod.name || parameters.product2 == prod.name) {
